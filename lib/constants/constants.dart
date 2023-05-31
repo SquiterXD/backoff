@@ -15,6 +15,7 @@ Color getColorFromHex(String hexColor) {
   return Color(int.parse(hexColor, radix: 16));
 }
 Color myColor = getColorFromHex("0066C5");
+Color myColorButton = getColorFromHex("0E4E89");
 
 const grey = Color.fromRGBO(148, 170, 220, 1);
 const purple = Color.fromRGBO(165, 80, 179, 1);

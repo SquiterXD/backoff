@@ -1,4 +1,5 @@
 import 'package:backoffice/pages/HomeScreen.dart';
+import 'package:backoffice/pages/order/ordering.dart';
 import 'package:flutter/material.dart';
 
 
@@ -25,7 +26,7 @@ class DrawerMenu extends StatelessWidget {
         children: [
           ListTile(title: const Text('การจัดส่งของฉัน'),
           onTap: () {
-            Navigator.push(context, MaterialPageRoute(builder: (context) => const HomeScreen()));
+            Navigator.push(context, MaterialPageRoute(builder: (context) => const Ordering()));
           },
           ),
           ListTile(title: const Text('จัดส่งแบบชุด'),
